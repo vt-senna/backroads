@@ -304,6 +304,8 @@ p {
 
 .contact-form {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   max-width: 25rem;
 }
 
@@ -330,7 +332,6 @@ p {
 
 .submit-btn {
   font-family: var(--ff-primary);
-  margin-left: 0.5rem;
   background: var(--clr-primary-8);
   color: var(--clr-primary-1);
   cursor: pointer;
